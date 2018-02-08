@@ -10,6 +10,13 @@ $(document).ready(function() {
  */
 function initializePage() {
 	console.log("Javascript connected!");
+
+	$("a.thumbnail").click(projectClick);
+}
+
+function projectClick(e) {
+
+	
 }
 
 function anagrammedName(name) {
